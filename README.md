@@ -8,6 +8,10 @@ Executes `dir command`
 
 Multiple commands can be sent:
 ```
+plink -batch -no-antispoof root@78.140.136.25 -pw boqsc1793 -m test.txt
+```
+Alternate version
+```
 plink -batch -no-antispoof root@78.140.136.25 -pw password < test.txt
 ```
 
