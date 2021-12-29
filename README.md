@@ -25,3 +25,4 @@ exit
 
 
 ## https://superuser.com/questions/1621783/putty-plink-how-to-execute-command-and-keep-shell-alive
+https://github.com/cyd01/KiTTY/releases
