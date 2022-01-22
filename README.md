@@ -4,8 +4,8 @@
 Updated
 ```
 @ECHO OFF
-CD "%~DP0"
 SET "password="
+CD "%~DP0"
 IF NOT EXIST plink.exe curl --location https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe -O
 cls
 REM  echo y - confirms on storing the host key in the putty/plink cache. [required on first connection to the server.]
