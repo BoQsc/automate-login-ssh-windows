@@ -13,7 +13,7 @@ ECHO y | plink -no-antispoof root@78.140.136.25 -pw %ssh_password% dir
 PAUSE
 ```
 
-
+Old
 ```
 curl https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe -O
 plink -batch -no-antispoof root@78.140.136.25 -pw password dir
