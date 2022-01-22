@@ -7,10 +7,10 @@ Updated
 SET "ssh_password="
 CD "%~DP0"
 IF NOT EXIST plink.exe curl --location https://the.earth.li/~sgtatham/putty/latest/w64/plink.exe -O
-cls
+CLS
 REM  echo y - confirms on storing the host key in the putty/plink cache. [required on first connection to the server.]
-echo y | plink -no-antispoof root@78.140.136.25 -pw %ssh_password% dir
-pause
+ECHO y | plink -no-antispoof root@78.140.136.25 -pw %ssh_password% dir
+PAUSE
 ```
 
 
